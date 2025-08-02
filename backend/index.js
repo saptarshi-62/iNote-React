@@ -1,5 +1,5 @@
 // Load environment variables from .env file
-//require('dotenv').config();
+require('.env').config();
 
 const connectToMongo= require('./db');
 const express = require('express');
